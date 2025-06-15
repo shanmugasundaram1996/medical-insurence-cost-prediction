@@ -20,7 +20,7 @@ with open("C:/Users/shanm/OneDrive/Desktop/Insurence/model1.pkl", 'rb') as file:
 
 #set home page with titles of other pages
 st.sidebar.title('HOME')
-page=st.sidebar.radio("Getpage",["Project Info","View Dataset","Exploratoty Data Analysis","Final Regressor model ",
+page=st.sidebar.radio("Getpage",["Project Info","View Dataset","Exploratory Data Analysis","Final Regressor model ",
                                  "Know Your Insurence Price",
                                     "Who Creates"])
 #page 1 is selected
@@ -55,7 +55,7 @@ elif page=="View Dataset":
 
 
 
-elif page=="Exploratoty Data Analysis":
+elif page=="Exploratory Data Analysis":
     Query=st.selectbox("Univariate Analysis",["select below queries","What is the distribution of medical insurance charges?",
                                          "What is the age distribution of the individuals?",
                                          "How many people are smokers vs non-smokers?",
